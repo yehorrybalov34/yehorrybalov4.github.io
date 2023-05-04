@@ -73,3 +73,13 @@
     top: 45px;
     left: 45px;
 }
+a#myLink {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}

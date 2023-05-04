@@ -3,11 +3,11 @@ function showImage() {
     img.src = "path/to/image.jpg";
     document.body.appendChild(img);
 }
-function replaceButtonWithImage() {
-    var button = document.getElementById("myButton");
+function replaceLinkWithImage() {
+    var link = document.getElementById("myLink");
     var image = new Image();
     image.src = "image.jpeg";
     image.onload = function() {
-        button.parentNode.replaceChild(image, button);
+        link.parentNode.replaceChild(image, link);
     };
 }
