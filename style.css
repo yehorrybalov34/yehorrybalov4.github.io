@@ -1,85 +1,39 @@
-.button {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #0077cc;
-    color: #fff;
-    border-radius: 3px;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
-    cursor: pointer;
-    position: absolute;
-}
-
-.button:hover {
-    transform: translateY(-3px);
-    box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
-}
-
-.button:focus {
-    outline: none;
-}
-
-.button:active {
-    transform: translateY(0);
-    box-shadow: none;
-}
-
-.button1 {
-    top: 473px;
-    left: 312px;
-}
-
-.button2 {
-    top: 284px;
-    left: 671px;
-}
-
-.button3 {
-    top: 150px;
-    right: 163px;
-}
-
-.button4 {
-    top: 150px;
-    left: 34px;
-}
-
-.button5 {
-    top: 341px;
-    left: 560px;
-}
-
-.button6 {
-    top: 64px;
-    left: 354px;
-}
-
-.button7 {
-    top: 30px;
-    right: 350px;
-}
-
-.button8 {
-    top: 400px;
-    right: 400px;
-}
-
-.button9 {
-    top: 45px;
-    left: 45px;
-}
-a#myLink {
-    display: inline-block;
-    width: 100px;
-    height: 50px;
-    background-color: blue;
+button:hover {
+    background-color: #007bff;
+    box-shadow: 0 0 10px #007bff;
+  }
+  button {
+    background-image: linear-gradient(to bottom, #007bff, #0066cc);
+    border: none;
     color: white;
+    padding: 10px 20px;
     text-align: center;
-    line-height: 50px;
     text-decoration: none;
-}
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-image: linear-gradient(to bottom, #0066cc, #007bff);
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0066cc;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+      
